@@ -5,10 +5,13 @@
   padding-top: 15px;
   padding-bottom: 15px;
   box-shadow: 0 5px 5px -2px rgba(25, 25, 25, 0.15);
+  background-color: white;
+  z-index: 2;
 }
 
 .top_header .header_row {
   max-width: 1290px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -19,19 +22,43 @@
   display: flex;
   justify-content: space-between;
 } */
+.header_row .header_column.logo {
+  width: 10%;
+}
+
+.header_column.logo img {
+  width: 110px;
+  transition: transform 1s ease-in-out;
+}
+
+.header_column.logo img:hover {
+  width: 110px;
+  transform: scale(1.2);
+}
 
 .header_row .header_column {
-  width: 33.3%;
+  width: 45%;
   text-align: center;
+}
+
+.header_column.helpu {
+  text-align: right;
 }
 
 .header_column img {
   width: 150px;
+  transition: transform 1s ease-in-out;
+}
+
+.header_column img:hover {
+  width: 150px;
+  transform: scale(1.1);
 }
 
 .list .list_item {
   display: inline;
-  padding-right: 35px;
-  font-weight: 600;
-  font-size: 15px;
+  padding-right: 20px;
+  /* font-weight: 600; */
+  font-size: 20px;
+  /* letter-spacing: 2px; */
 }

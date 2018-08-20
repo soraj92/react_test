@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua");
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
 @import "./css/reset.css";
 @import "./css/globals.css";
 @import "./css/header.css";
+@import "./css/main_img.css";
+@import "./css/product.css";
+@import "./css/footer.css";
+@import "./css/header_menu.css";
